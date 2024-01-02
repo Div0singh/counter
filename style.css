@@ -117,9 +117,16 @@ body{
       font-size: 17px;
     }
   }
-  @media (max-width:300px){
+  @media (max-width:370px){
     .container{
-      width: auto;
+      width: 80%;
       height: auto;
     }
+    .container .counter_button{
+      display: flex;
+      flex-direction: column;
+    }
+    .container .counter_area span{
+      font-size: 3em;
+     }
   }
