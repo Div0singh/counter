@@ -111,6 +111,11 @@ body{
     .container{
       width: 80%;
     }
+    .container .counter_button button{
+      padding: 8px;
+      margin: 8px;
+      font-size: 17px;
+    }
   }
   @media (max-width:300px){
     .container{
